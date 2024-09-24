@@ -7,11 +7,15 @@
    
 }
 img{
-    border-radius: 7%;
+    border-radius:  10%;
+    height: 40vh;
 }
 .trophy-cabinet{
-    width: 100%;
-    height: 40%;
+    position: absolute;
+    margin-top: 220px;
+    width: 50%;
+    border-radius: 15px;
+    height: 50vh;
 }
 h1{
     text-align: center;
@@ -30,7 +34,8 @@ h1 p{
 #image-space{
     display: flex;
     flex-direction: row;
-    background-color: #fff;
+    background-color: rgb(137, 181, 199);
+    overflow: hidden;
 }
 .discription{
     font-size: 12px;
@@ -50,10 +55,7 @@ li{
 li p{
     color: black;
 }
-.trophies{
-    display: flex;
-    flex-direction: row;
-}
+
 .column2-list2 li, .column2-list3 li{
     color: black;
 }
@@ -64,4 +66,53 @@ li p{
 .discription{
     font-size: 13px;
     text-align: center;
+}
+.vl{
+    width: 0.01vw;
+    height: 100vh;
+    background-color: rgb(80, 126, 152);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.biography, .row1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+}
+.row1{
+    padding: 0px;
+}
+.row2{
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.box{
+    box-shadow: 5px, -5px 0px, rgb(95, 95, 109);
+    background-color: #fff;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+
+
+}
+hr{
+    width: 70px;
+    height: 0.5px;
+    background-color: rgb(78, 78, 43);
+    margin-top: 100px;
+    border-style: none;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.link{
+    height: 20px;
+    width: 0.5px;
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
